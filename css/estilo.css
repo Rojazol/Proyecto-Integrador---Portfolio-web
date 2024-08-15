@@ -281,31 +281,31 @@ html{
     100%{width: 70%;}
 }
 
-.skills .skill .deportes{
+.skills .skill .CSS{
     width: 0%;
-    animation: 2s deportes forwards;
+    animation: 2s CSS forwards;
 }
-@keyframes deportes {
+@keyframes CSS {
     0%{width: 0%;}
     100%{width: 80%;}
 }
 
-.skills .skill .manejo{
+.skills .skill .C#{
     width: 0%;
-    animation: 2s manejo forwards;
+    animation: 2s C# forwards;
 }
-@keyframes manejo {
+@keyframes C# {
     0%{width: 0%;}
-    100%{width: 20%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .trabajo{
+.skills .skill .SQL{
     width: 0%;
-    animation: 2s trabajo forwards;
+    animation: 2s SQL forwards;
 }
-@keyframes trabajo {
+@keyframes SQL {
     0%{width: 0%;}
-    100%{width: 5%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .marketing{
@@ -326,22 +326,22 @@ html{
     100%{width: 95%;}
 }
 
-.skills .skill .mercancia{
+.skills .skill .enseñanza{
     width: 0%;
-    animation: 2s mercancia forwards;
+    animation: 2s enseñanza forwards;
 }
-@keyframes mercancia {
+@keyframes enseñanza {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .dibujo{
+.skills .skill .Programacion{
     width: 0%;
-    animation: 2s dibujo forwards;
+    animation: 2s Programacion forwards;
 }
-@keyframes dibujo {
+@keyframes Programacion {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 70%;}
 }
 
 /* SECCION CURRICULUM */
