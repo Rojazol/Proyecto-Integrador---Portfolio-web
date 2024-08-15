@@ -21,14 +21,14 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("ingles");
-        habilidades[1].classList.add("deportes");
-        habilidades[2].classList.add("manejo");
-        habilidades[3].classList.add("trabajo");
+        habilidades[0].classList.add("HTML");
+        habilidades[1].classList.add("CSS");
+        habilidades[2].classList.add("C#");
+        habilidades[3].classList.add("SQL");
         habilidades[4].classList.add("marketing");
         habilidades[5].classList.add("contabilidad");
-        habilidades[6].classList.add("mercancia");
-        habilidades[7].classList.add("dibujo");
+        habilidades[6].classList.add("enseñanza");
+        habilidades[7].classList.add("programacion");
     }
 }
 
