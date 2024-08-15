@@ -272,11 +272,11 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .ingles{
+.skills .skill .HTML{
     width: 0%;
-    animation: 2s ingles forwards;
+    animation: 2s HTML forwards;
 }
-@keyframes ingles {
+@keyframes HTML {
     0%{width: 0%;}
     100%{width: 70%;}
 }
