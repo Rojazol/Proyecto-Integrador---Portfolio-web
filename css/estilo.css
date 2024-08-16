@@ -292,7 +292,7 @@ html{
 
 .skills .skill .C#{
     width: 0%;
-    animation: 2s C# forwards;
+    animation: 2s C forwards;
 }
 @keyframes C# {
     0%{width: 0%;}
