@@ -337,7 +337,7 @@ html{
 
 .skills .skill .Programacion{
     width: 0%;
-    animation: 2s Programacion forwards;
+    animation: 2s ProgramacionAnimation forwards;
 }
 @keyframes Programacion {
     0%{width: 0%;}
