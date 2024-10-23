@@ -23,11 +23,11 @@ function efectoHabilidades(){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("HTML");
         habilidades[1].classList.add("CSS");
-        habilidades[2].classList.add("C#");
+        habilidades[2].classList.add("Csharp");
         habilidades[3].classList.add("SQL");
         habilidades[4].classList.add("marketing");
         habilidades[5].classList.add("contabilidad");
-        habilidades[6].classList.add("enseñanza");
+        habilidades[6].classList.add("ensenanza");
         habilidades[7].classList.add("programacion");
     }
 }
