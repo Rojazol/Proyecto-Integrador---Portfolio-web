@@ -326,11 +326,11 @@ html{
     100%{width: 95%;}
 }
 
-.skills .skill .enseñanza{
+.skills .skill .ensenanza{
     width: 0%;
-    animation: 2s enseñanza forwards;
+    animation: 2s ensenanzaAnimation forwards;
 }
-@keyframes enseñanza {
+@keyframes ensenanzaAnimation {
     0%{width: 0%;}
     100%{width: 90%;}
 }
