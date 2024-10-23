@@ -28,7 +28,7 @@ function efectoHabilidades(){
         habilidades[4].classList.add("marketing");
         habilidades[5].classList.add("contabilidad");
         habilidades[6].classList.add("ensenanza");
-        habilidades[7].classList.add("programacion");
+        habilidades[7].classList.add("Programacion");
     }
 }
 
