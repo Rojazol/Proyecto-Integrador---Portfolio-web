@@ -56,7 +56,6 @@ html{
     display: none;
 }
 /* SECCION I N I C I O */
-.inicio{
      .inicio {
     position: relative;
     height: 100vh;
@@ -73,7 +72,7 @@ html{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -1; /* Para que el contenido esté por encima del video */
 }
 
 .inicio .contenido-banner{
