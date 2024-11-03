@@ -30,7 +30,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
-    color: #e723c7;
+    color: #e723c7; /*color del nombre*/
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -46,7 +46,7 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #b61c9c;
+    color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra en hover */
     transform: translateY(-2px), scale(2); /* Eleva el botón */
     transition: box-shadow 0.3s ease; /* Suaviza la transición */
@@ -669,6 +669,11 @@ footer .arriba{
     line-height: 50px;
     font-size: 18px;
 }
+footer .arriba:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
