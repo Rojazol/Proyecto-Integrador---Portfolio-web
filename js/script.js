@@ -1,4 +1,6 @@
+// 1. Menú Responsivo
 let menuVisible = false;
+
 //Función que oculta o muestra el menu
 function mostrarOcultarMenu(){
     if(menuVisible){
@@ -10,8 +12,8 @@ function mostrarOcultarMenu(){
     }
 }
 
+  //oculto el menu una vez que selecciono una opcion
 function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
@@ -37,3 +39,19 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+// 3. Animación de Cursos
+document.addEventListener('DOMContentLoaded', function () {
+    const cursos = document.querySelectorAll('.curso');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target); // Deja de observar una vez que es visible
+            }
+        });
+    }, { threshold: 0.1 });
+
+    cursos.forEach(curso => observer.observe(curso));
+});
