@@ -289,17 +289,18 @@ html{
 }
 .skills .skill .barra-skill div{
     position: absolute;
-    height: 25px;
-    width: 25px;
+    height: 20px;
+    width: 20px;
     background-color: #94035d;
     border-radius: 50px;
     line-height: 25px;
     text-align: center;
-    top: -10px;
+    top: -6px;           /* Mueve el círculo hacia arriba para centrarlo en la barra */
     font-size: 12px;
     left: 0;                /* El círculo comienza desde el principio de la barra */
-    font-size: 12px;        /* Ajuste del tamaño del texto dentro del círculo */
+    font-size: 14px;        /* Ajuste del tamaño del texto dentro del círculo */
     transition: left 2s ease; /* Hace que el círculo se mueva a la derecha junto con la barra */
+    right: -10px;        /* Mueve el círculo hacia la derecha, asegurando que siga el progreso */
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .HTML{
