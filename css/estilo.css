@@ -287,6 +287,14 @@ html{
     height: 8px;
     transition: width 2s ease; /* Se agrega transición para suavizar la animación */
 }
+
+.skills .skill .progreso span {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+}
 .skills .skill .barra-skill div{
     position: absolute;
     height: 20px;
@@ -339,7 +347,7 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .pyhton{
+.skills .skill .python{
     width: 0%;
     animation: 2s python forwards;
 }
