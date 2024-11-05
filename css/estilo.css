@@ -285,6 +285,7 @@ html{
     top: 0;
     left: 0;
     height: 8px;
+    transition: width 2s ease; /* Se agrega transición para suavizar la animación */
 }
 .skills .skill .barra-skill div{
     position: absolute;
@@ -295,8 +296,10 @@ html{
     line-height: 25px;
     text-align: center;
     top: -10px;
-    right: -12px;
     font-size: 12px;
+    left: 0;                /* El círculo comienza desde el principio de la barra */
+    font-size: 12px;        /* Ajuste del tamaño del texto dentro del círculo */
+    transition: left 2s ease; /* Hace que el círculo se mueva a la derecha junto con la barra */
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .HTML{
