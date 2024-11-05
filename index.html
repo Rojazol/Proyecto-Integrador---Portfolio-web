@@ -350,6 +350,23 @@
         </div>
         <p>© 2024 <span>Rocio Jazmin Olabiaga</span></p>
     </footer>
-    <script src="./js/script.js"></script>
+
+  <script>
+    // Agregamos un retraso para iniciar la animación después de cargar la página
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.skill').forEach(skill => {
+        const percent = skill.getAttribute('data-percent');
+        const progressBar = skill.querySelector('.progress');
+        
+        // Establecemos un retraso para que se vea la animación
+        setTimeout(() => {
+          progressBar.style.width = percent + '%';
+        }, 100); // Se aplica un pequeño retraso para que se note la animación
+      });
+    });
+  </script>
+
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
