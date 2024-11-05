@@ -17,38 +17,12 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
-    var skills = document.getElementById("skills");
+
 
     // Función que aplica las animaciones de las habilidades
 function efectoHabilidades() {
     var skills = document.getElementById("skills");
-    
-    // Verifica si el elemento existe
-    if (!skills) return;
 
-    var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
-
-    if (distancia_skills >= 300) {
-        let habilidades = document.getElementsByClassName("progreso");
-        
-        // Asegúrate de que haya suficientes elementos
-        for (let i = 0; i < habilidades.length; i++) {
-            if (habilidades[i]) {
-                habilidades[i].classList.add(habilidades[i].dataset.skill);
-            }
-        }
-        
-        // Remover el evento de scroll después de aplicar las animaciones
-        window.removeEventListener('scroll', efectoHabilidades);
-    }
-}
-
-// Detecto el scrolling para aplicar la animación de la barra de habilidades
-window.addEventListener('scroll', efectoHabilidades);
-
-    
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     
     if(distancia_skills >= 300){
