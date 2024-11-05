@@ -335,38 +335,38 @@ html{
     100%{width: 75%;}
 }
 
-.skills .skill .marketing{
+.skills .skill .pyhton{
     width: 0%;
-    animation: 2s marketing forwards;
+    animation: 2s python forwards;
 }
-@keyframes marketing {
+@keyframes python {
     0%{width: 0%;}
     100%{width: 90%;}
 }
 
-.skills .skill .contabilidad{
+.skills .skill .postgreSQL{
     width: 0%;
-    animation: 2s contabilidad forwards;
+    animation: 2s postgreSQL forwards;
 }
-@keyframes contabilidad {
+@keyframes postgreSQL {
     0%{width: 0%;}
     100%{width: 95%;}
 }
 
-.skills .skill .ensenanza{
+.skills .skill .xampp{
     width: 0%;
-    animation: 2s ensenanzaAnimation forwards;
+    animation: 2s xamppAnimation forwards;
 }
-@keyframes ensenanzaAnimation {
+@keyframes xamppAnimation {
     0%{width: 0%;}
     100%{width: 90%;}
 }
 
-.skills .skill .Programacion{
+.skills .skill .Php{
     width: 0%;
-    animation: 2s ProgramacionAnimation forwards;
+    animation: 2s PhpAnimation forwards;
 }
-@keyframes ProgramacionAnimation {
+@keyframes PhpAnimation {
     0%{width: 0%;}
     100%{width: 70%;}
 }
