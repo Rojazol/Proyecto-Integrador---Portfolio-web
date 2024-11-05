@@ -348,9 +348,9 @@ html{
 
 .skills .skill .python{
     width: 0%;
-    animation: 2s python forwards;
+    animation: 2s pythonAnimation forwards;
 }
-@keyframes python {
+@keyframes pythonAnimation {
     0%{width: 0%;}
     100%{width: 90%;}
 }
@@ -375,9 +375,9 @@ html{
 
 .skills .skill .Php{
     width: 0%;
-    animation: 2s PhpAnimation forwards;
+    animation: 2s Php forwards;
 }
-@keyframes PhpAnimation {
+@keyframes Php {
     0%{width: 0%;}
     100%{width: 70%;}
 }
