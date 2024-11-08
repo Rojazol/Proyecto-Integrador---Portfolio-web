@@ -242,7 +242,7 @@ html{
 .skills{
     background-color: #381142;
     color: #fff;
-    padding: 90px 20px;
+    padding: 50px 20px;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -274,7 +274,7 @@ html{
 }
 .skills .skill .barra-skill{
     height: 8px;
-    width: 100%;
+    width: 80%;
     background-color: #351129; 
     position: relative;
     margin-bottom: 30px;
@@ -288,26 +288,17 @@ html{
     transition: width 2s ease; /* Se agrega transición para suavizar la animación */
 }
 
-.skills .skill .progreso span {
+.skills .skill .barra-skill span{
     position: absolute;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 14px;
-}
-.skills .skill .barra-skill div{
-    position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     background-color: #94035d;
     border-radius: 50px;
-    line-height: 25px;
+    line-height: 40px;
     text-align: center;
-    /* top: -6px;           /* Mueve el círculo hacia arriba para centrarlo en la barra */
-    /*left: 0;                /* El círculo comienza desde el principio de la barra */
+    top: -17px;           /* Mueve el círculo hacia arriba para centrarlo en la barra */
     font-size: 14px;        /* Ajuste del tamaño del texto dentro del círculo */
-    transition: left 2s ease; /* Hace que el círculo se mueva a la derecha junto con la barra */
-    /* right: -10px;        Mueve el círculo hacia la derecha, asegurando que siga el progreso */
+    right: -15px;        Mueve el círculo hacia la derecha, asegurando que siga el progreso */
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .HTML{
